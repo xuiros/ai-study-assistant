@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="40" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AI Study Assistant logo">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect rx="16" width="300" height="100" fill="url(#g)" opacity="0.06" />
+  <g transform="translate(18,20)">
+    <!-- Book icon -->
+    <path d="M12 6h28v22H12z" fill="#fff" opacity="0.95"/>
+    <path d="M12 6c8-4 20-4 28 0v22c-8-4-20-4-28 0V6z" fill="#e6eefc" opacity="0.6"/>
+    <!-- AI spark -->
+    <g transform="translate(46,6)">
+      <circle cx="18" cy="12" r="10" fill="#fff"/>
+      <path d="M18 6v6l4 2" stroke="#7c3aed" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <circle cx="18" cy="12" r="4" fill="#2563eb"/>
+    </g>
+  </g>
+  <text x="110" y="62" font-family="Geist, system-ui, -apple-system, 'Segoe UI', Roboto" font-size="28" fill="#111827">AI Study Assistant</text>
+</svg>
